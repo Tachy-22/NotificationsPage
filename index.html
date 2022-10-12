@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+    <script
+      src="https://kit.fontawesome.com/bf1cef0f0b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer="true" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div id="notification">
+          <h3>Notifications</h3>
+          <div id="notificationNumber"><h3 id="notifNum">3</h3></div>
+        </div>
+        <div id="markAll"><p>Mark all as read</p></div>
+      </header>
+      <div class="verticalSection" id="top3a">
+        <figure>
+          <img src="./assets/images/avatar-mark-webber.webp" alt="" srcset="" />
+        </figure>
+        <div>
+          <div class="verticalSection">
+            <h3>
+              Mark Webber
+              <span class="commentP">reacted to your recent post</span>
+              <span>
+                My first tournament today!<span
+                  ><i id="circ1" class="fa-solid fa-circle"></i
+                ></span>
+              </span>
+            </h3>
+          </div>
+          <p class="time">1m ago</p>
+        </div>
+      </div>
+      <div class="verticalSection" id="top3b">
+        <figure>
+          <img src="./assets/images/avatar-angela-gray.webp" alt="" srcset="" />
+        </figure>
+        <div>
+          <div class="verticalSection">
+            <h3>
+              Angela Gray
+              <span class="commentP">
+                followed you
+                <span><i id="circ2" class="fa-solid fa-circle"></i></span>
+              </span>
+            </h3>
+          </div>
+          <p class="time">5m ago</p>
+        </div>
+      </div>
+      <div class="verticalSection" id="top3c">
+        <figure>
+          <img
+            src="./assets/images/avatar-jacob-thompson.webp"
+            alt=""
+            srcset=""
+          />
+        </figure>
+        <div>
+          <div class="verticalSection">
+            <h3>
+              Jacob Thompson
+              <span class="commentP"> has joined your group</span>
+              <span>
+                Chess Club<span
+                  ><i id="circ3" class="fa-solid fa-circle"></i
+                ></span>
+              </span>
+            </h3>
+          </div>
+          <p class="time">1 day ago</p>
+        </div>
+      </div>
+      <div class="verticalSection" id="#bottoma">
+        <figure id="rick">
+          <img
+          id="rickid"
+            src="./assets/images/avatar-rizky-hasanuddin.webp"
+            alt=""
+            srcset=""
+          />
+        </figure>
+        <div>
+          <div class="verticalSection">
+            <h3>
+              Rizky Hasanuddin
+              <span class="commentP"> sent you a private message </span>
+            </h3>
+          </div>
+          <p class="time">5 days ago</p>
+          <div id="openedMessage">
+            <p>
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="verticalSection">
+        <div class="verticalSection" id="#bottomb">
+          <figure>
+            <img
+              src="./assets/images/avatar-kimberly-smith.webp"
+              alt=""
+              srcset=""
+            />
+          </figure>
+          <div>
+            <div class="verticalSection">
+              <h3>
+                Kimberly Smith
+                <span class="commentP">commented on your picture</span>
+              </h3>
+            </div>
+            <p class="time">1 week ago</p>
+          </div>
+        </div>
+
+        <div>
+          <figure>
+            <img
+              id="chess"
+              src="./assets/images/image-chess.webp"
+              alt=""
+              srcset=""
+            />
+          </figure>
+        </div>
+      </div>
+      <div class="verticalSection" id="#bottomc">
+        <figure>
+          <img
+            src="./assets/images/avatar-nathan-peterson.webp"
+            alt=""
+            srcset=""
+          />
+        </figure>
+        <div>
+          <div class="verticalSection">
+            <h3>
+              Nathan Peterson
+              <span class="commentP"> reacted to your recent post </span
+              ><span>5 end-game strategies to increase your win rate</span>
+            </h3>
+          </div>
+          <p class="time">2 weeks ago</p>
+        </div>
+      </div>
+      <div class="verticalSection" id="#bottomd">
+        <figure>
+          <img src="./assets/images/avatar-anna-kim.webp" alt="" srcset="" />
+        </figure>
+        <div>
+          <div class="verticalSection">
+            <h3>
+              Anna Kim
+              <span class="commentP">left the group</span>
+              <span>Chess Club</span>
+            </h3>
+          </div>
+          <p class="time">2 weeks ago</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">The Mits</a>.
+      </div>
+    </footer>
+  </body>
+</html>

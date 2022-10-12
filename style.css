@@ -147,6 +147,10 @@ h3:hover {
   justify-content: space-between;
 }
 @media only screen and (max-width: 500px) {
+  * {
+    font-size: 0.9rem;
+  }
+
   html,
   body {
     font-size: 0.75rem;
